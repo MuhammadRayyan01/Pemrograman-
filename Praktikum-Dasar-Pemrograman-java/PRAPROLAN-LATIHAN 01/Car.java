@@ -3,26 +3,28 @@ class mobil {
 Scanner sc = new Scanner(System.in);
 String nama;
 int tahun;
-public void method(){
+public void input(){
 System.out.print("my name is ");
 nama=sc.nextLine();
-System.out.print("my IPK is ");
+System.out.print("tahun mobil is ");
 tahun=sc.nextInt();
 }
-
-
+public void output(){
+System.out.println("nama mobil: "+nama);
+System.out.println("tahun mobil: "+tahun);
+}
 }
 public class Car{
 public static void main(String[] args) {
     mobil car1= new mobil();
-    car1.nama = "honda";
-    car1.tahun = 4;
-    car1.method();
+    car1.input();
+    car1.output();
     mobil car2 = new mobil();
-    car2.nama = "ducati";
-    car2.tahun= 4;
-    car2.method();
-
+    car2.input();
+    car2.output();
+    mobil car3= new mobil();
+    car3.input();
+    car3.output();
     
 }
 }
