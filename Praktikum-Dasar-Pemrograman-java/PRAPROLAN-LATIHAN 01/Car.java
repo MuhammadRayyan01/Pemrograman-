@@ -25,6 +25,8 @@ public static void main(String[] args) {
     mobil car3= new mobil();
     car3.input();
     car3.output();
+
+    /*   */
     
 }
 }
